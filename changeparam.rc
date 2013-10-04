@@ -1,0 +1,30 @@
+#include <winver.h>
+
+VS_VERSION_INFO    VERSIONINFO 
+FILEVERSION        0,0,0,4
+FILEFLAGSMASK      VS_FFI_FILEFLAGSMASK 
+FILEFLAGS          0x00000000L
+FILEOS             VOS__WINDOWS32
+FILETYPE           VFT_APP
+FILESUBTYPE        VFT2_UNKNOWN
+
+BEGIN
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Black Team"
+            VALUE "FileDescription",  "受けたパラメーターを別のプロセスに渡して起動するやつ"
+            VALUE "FileVersion",      "0.0.0.4\0"
+            VALUE "LegalCopyright",   "わし\0"
+            VALUE "OriginalFilename", "changeparam.exe\0"
+        END 
+    END
+END
+
+1000 ICON "changeparam.ico"
