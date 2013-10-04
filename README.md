@@ -12,7 +12,7 @@ git clone https://github.com/v1T5VgfYSXt41fk5/changeparam changeparam
 ```
 設定
 ----------
-exe置いてるDirの__changeparam.ini__(ファイル名固定)を読みます。
+exe置いてるDirの __changeparam.ini__（ファイル名固定）を読みます。
 
 ```ini
 [Settings] 
@@ -21,8 +21,8 @@ Error=0
 Debug=0  
 ```
 __Command__  
-全体を__ダブルクォート(")__で囲む
-実行時に受け取るパラメータは__%1～%10__。
+全体を __ダブルクォート(")__ で囲む
+実行時に受け取るパラメータは __%1～%10__ 。
 
 __Error( 0 | 1 )__  
 実行失敗したときにMessageBoxを表示する。
